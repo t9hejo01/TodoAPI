@@ -11,7 +11,7 @@ services:
       - "app_db"
     container_name: todoapi-services
     ports:
-      - "3000:80"
+      - "5151:80"
     build:
       context: .
       dockerfile: Dockerfile
